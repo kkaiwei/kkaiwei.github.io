@@ -7,9 +7,9 @@
 
 # Site Settings
 title                    : "Hazel (Kaiwei) Chen"
-description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
-repository               : "RayeRen/acad-homepage.github.io"
-google_scholar_stats_use_cdn : true
+description              : "Ongoing BSc. in Management Science and Engineering"
+repository               : "kkaiwei/kkaiwei.github.io"
+google_scholar_stats_use_cdn : false
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Hazel (Kaiwei) Chen"
-  avatar           : "images/android-chrome-512x512.png"
+  avatar           : "images/android-chrome-192x192.png"
   bio              : "Stanford University"
   location         : "Stanford, CA"
   employer         :
