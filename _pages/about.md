@@ -42,13 +42,13 @@ I am currently an undergraduate student at Stanford University with a keen inter
 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2023.07 - 2025.04 (now)*, Stanford University, Department of Management Science & Engineering
+- *2020.09 - 2023.07*, Nanjing Foreign Language School
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2025.01 - 2025.04 (now)*, [Silver Beach Capital Partners](https://www.linkedin.com/company/silver-beach-capital-partners/), Remote.
+- *2024.12 - 2025.04 (now)*, [Tenebrist Global, LP](https://www.linkedin.com/company/tenebrist-global-l-p/), Remote.
+- *2024.06 - 2024.09*, [Center for Spatial and Textual Analysis(CESTA) - Stanford University](https://cesta.stanford.edu), Stanford, CA.
+- *2023.06 - 2023.09*, [Huaxi Securities](https://www.hx168.com.cn/main/index/index.shtml), China.
