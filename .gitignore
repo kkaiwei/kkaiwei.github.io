@@ -1,0 +1,43 @@
+# ----------------------------------
+# Jekyll build artifacts
+# ----------------------------------
+_site/                  # Generated site output
+.jekyll-cache/          # Jekyll’s cache
+.sass-cache/            # Sass/SCSS cache
+
+# ----------------------------------
+# Bundler & Ruby dependencies
+# ----------------------------------
+.bundle/                # Bundler config & gems
+vendor/bundle/          # Vendored gems
+
+# ----------------------------------
+# Node.js / Asset pipeline
+# ----------------------------------
+node_modules/           # npm/yarn modules
+yarn-error.log          # Yarn error log
+
+# ----------------------------------
+# IDE / Editor settings
+# ----------------------------------
+.vscode/                # VS Code settings
+.idea/                  # JetBrains IDEs
+
+# ----------------------------------
+# System files
+# ----------------------------------
+.DS_Store               # macOS Finder metadata
+Thumbs.db               # Windows image cache
+
+# ----------------------------------
+# Logs & env files
+# ----------------------------------
+*.log                   # Log files
+.env                    # Environment variables
+
+# ----------------------------------
+# Optional: backups, temp
+# ----------------------------------
+*~                      # Vim backup files
+*.swp                   # Vim swap files
+
