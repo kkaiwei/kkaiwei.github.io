@@ -31,7 +31,7 @@ I am currently an undergraduate student at Stanford University with a keen inter
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/litocr-teaser.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[LitOCRé: Integrating ResNet and TrOCR with LoRA Fine-Tuning for French Handwritten Text Recognition](https://kkaiweii.github.io/litocr/)
+[LitOCRé: Integrating ResNet and TrOCR with LoRA Fine-Tuning for French Handwritten Text Recognition](https://kkaiwei.github.io/litocr/)
 
 **Kaiwei Chen**
 
