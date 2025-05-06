@@ -35,12 +35,23 @@ I am currently an undergraduate student at Stanford University with a keen inter
 
 **Kaiwei Chen**
 
-<!-- [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
 - ResNet‑based Text Localization: Fine‑tunes a ResNet detection model to accurately extract text regions from 19th‑century French manuscripts
 - LoRA‑enhanced TrOCR Recognition: Applies LoRA to TrOCR for high‑accuracy transcription of cropped segments, outperforming standard OCR methods
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/cat.jpeg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Orange.Muslim_Cat: TikTok Content Creator & Growth Strategist](https://www.tiktok.com/@orange.muslim_cat)
+
+**Kaiwei Chen**
+
+- Launched and scaled the “Orange.Muslim_Cat” TikTok channel to 300 K followers by producing AI‑generated video content that blends cultural storytelling with engaging animation.
+- Employed A/B testing of hashtags, captions, and trending sounds to drive a 25%+ week‑over‑week engagement lift, optimizing content strategy through data insights.
+- Leveraged TikTok Analytics to track watch time, completion rate, and audience demographics, iterating posting cadence and formats to sustain consistent follower growth.
+</div>
+</div>
 
 # 📖 Educations
 - *2023.07 - 2025.04 (now)*, Stanford University, Department of Management Science & Engineering
