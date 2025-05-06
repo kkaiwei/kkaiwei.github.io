@@ -28,12 +28,12 @@ I am currently an undergraduate student at Stanford University with a keen inter
 
 # 📝 Projects 
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/litocr-teaser.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/litocr-teaser.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[LitOCRé: Integrating ResNet and TrOCR with LoRA Fine-Tuning for French Handwritten Text Recognition](https://kkaiweii.github.io/trocr)
+[LitOCRé: Integrating ResNet and TrOCR with LoRA Fine-Tuning for French Handwritten Text Recognition](https://kkaiweii.github.io/litocr/)
 
-Kaiwei Chen
+**Kaiwei Chen**
 
 <!-- [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
 - ResNet‑based Text Localization: Fine‑tunes a ResNet detection model to accurately extract text regions from 19th‑century French manuscripts

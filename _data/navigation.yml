@@ -8,11 +8,11 @@ main:
   - title: "Projects"
     url: "/#-projects"
 
-  - title: "LitOCR"
-    url: "/litocr/"
-
   - title: "Educations"
     url: "/#-educations"
 
   - title: "Internships"
     url: "/#-internships"
+
+- - title: "LitOCR"
+-   url: "/litocr/"

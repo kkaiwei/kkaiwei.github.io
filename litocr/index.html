@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="LitOCRé" />
+    <meta
+      name="keywords"
+      content="LitOCRé, ForceCapture, HybridIL, Robotics, Robot Learning, Imitation Learning, Hybrid Force-Position Control, Vegetable Peeling"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LitOCRé</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PMWMSYT7XX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-PMWMSYT7XX');
+    </script>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./static/css/bulma.min.css" />
+    <link rel="stylesheet" href="./static/css/bulma-carousel.min.css" />
+    <link rel="stylesheet" href="./static/css/bulma-slider.min.css" />
+    <link rel="stylesheet" href="./static/css/fontawesome.all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
+    />
+    <link rel="stylesheet" href="./static/css/index.css" />
+    <link rel="icon" href="./static/images/favicon.png" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script> -->
+    <script defer src="./static/js/fontawesome.all.min.js"></script>
+    <script src="./static/js/bulma-carousel.min.js"></script>
+    <script src="./static/js/bulma-slider.min.js"></script>
+    <script src="./static/js/index.js"></script>
+  </head>
+
+  <body>
+    <!-- <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div class="navbar-menu">
+        <div class="navbar-start" style="flex-grow: 1; justify-content: center">
+          <a class="navbar-item" href="https://forcemimic.github.io/">
+            <span class="icon">
+              <i class="fas fa-home"></i>
+            </span>
+          </a>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link"> Related Work </a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="https://xxx"> xxx </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav> -->
+
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          <div class="columns is-centered">
+            <div class="column has-text-centered">
+              <h1 class="title is-1 publication-title">
+                <span class="highlight">LitOCRé</span>
+              </h1>
+              <h1 class="title is-2 publication-title">
+                <span>Integrating ResNet and TrOCR with LoRA Fine-Tuning for French Handwritten Text Recognition</span>
+              </h1>
+
+
+              <div class="is-size-5 publication-authors">
+                <span class="author-block">
+                  <a href="mailto:kaiweii@stanford.edu">Hazel Chen</a
+                  ><sup></sup>
+                </span>
+              </div>
+
+              <div class="is-size-5 publication-authors">
+                <span class="author-block">Stanford University Center for Spatial and Textual Analysis</span>
+              </div>
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Abstract</h2>
+            <div class="content has-text-justified">
+              <p>
+                Handwritten literature from the 19th century holds significant cultural value, yet its digitization poses unique challenges due to the diversity of cursive writing styles and document degradation. To address this, we introduce LitOCRé: A Two-Stage Deep Learning System for Transcribing 19th-Century French Handwritten Literature. Our approach combines ResNet-based text localization and fine-tuned TrOCR-based text recognition, enhanced with LoRA (Low-Rank Adaptation) fine-tuning for robust performance.
+                The first stage utilizes a ResNet-based object detection model to accurately identify text regions within scanned manuscript pages, effectively handling variations in handwriting and layout. The second stage processes these localized text segments using a fine-tuned TrOCR model, leveraging LoRA to adapt cross-attention layers and final encoder layers to the stylistic nuances of 19th-century French cursive.
+                LitOCRé demonstrates significant improvements in text recognition accuracy, outperforming conventional OCR methods on challenging handwritten texts. The system's modular design allows for fine-tuning and adaptation to other handwritten languages, offering a powerful solution for digitizing historical literary archives.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3 highlight" id="HybridIL">Methods</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered has-text-justified">
+          <div class="column content">
+            <img
+                src="./static/images/teaser.jpg"
+                alt="Pipeline"
+                style="width: 100%"
+              />
+              <h3>Stage 1: Text Localization</h3>
+                        <p>The first stage of LitOCRé focuses on detecting text regions within scanned manuscript pages. We employ a ResNet-based object detection model, leveraging convolutional layers to extract visual features. A Region Proposal Network (RPN) generates bounding boxes around potential text areas, and a detection head refines these boxes to accurately localize handwritten text.</p>
+              <p>The model is fine-tuned using a curated dataset of 19th-century French manuscripts. To improve robustness, data augmentation techniques like rotation and noise addition are applied. The training process minimizes classification and bounding box regression losses using an SGD optimizer with a learning rate scheduler.</p>
+
+              <h3>Stage 2: Text Recognition</h3>
+              <p>Once text regions are localized, we use a fine-tuned TrOCR model for transcription. TrOCR combines a Vision Transformer (ViT) encoder and a Transformer decoder to model visual and textual information. To adapt to diverse handwriting styles, we apply LoRA fine-tuning specifically to cross-attention layers and the final encoder layers.</p>
+              <p>The training process involves initializing with a pre-trained TrOCR model and fine-tuning on 19th-century French handwritten data. The model optimizes using AdamW and Connectionist Temporal Classification (CTC) loss. LoRA fine-tuning ensures domain-specific adaptation without overfitting, enhancing the model's ability to recognize nuanced cursive handwriting.</p>
+          </div>
+        </div>
+      </div>
+
+      
+
+    <section class="section" id="BibTeX">
+      <div class="container is-max-desktop content">
+        <div class="columns is-centered has-text-centered">
+          <h2 class="title">BibTeX</h2>
+        </div>
+        <p>If you find it helpful, please consider citing our work: </p>
+        <pre><code>@inproceedings{chen2025litocre,
+          author       = {Hazel Chen},
+          title        = {LitOCRé: A Two-Stage Deep Learning System for Transcribing 19th-Century French Handwritten Literature},
+          keywords     = {OCR, Handwritten Text Recognition, French Literature, ResNet, TrOCR, LoRA, Cultural Heritage},
+          url          = {https://litocre.github.io},
+        }
+</code></pre>
+      <p>
+        If you have further questions, please feel free to drop an email to
+        <a href="mailto:kaiweii@stanford.edu">kaiweii@stanford.edu</a>,
+      </p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column is-8">
+            <div class="content">
+              <p>
+                This website is licensed under a
+                <a
+                  rel="license"
+                  href="http://creativecommons.org/licenses/by-sa/4.0/"
+                  >Creative Commons Attribution-ShareAlike 4.0 International
+                  License</a
+                >. This page is modified upon
+                <a href="https://nerfies.github.io/">Nerfies</a> website (<a
+                  href="https://github.com/nerfies/nerfies.github.io"
+                  >source</a
+                >).
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
