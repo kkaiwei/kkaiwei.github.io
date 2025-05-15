@@ -1,43 +1,54 @@
 # ----------------------------------
+# Operating system files
+# ----------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon files
+Icon?
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ----------------------------------
 # Jekyll build artifacts
 # ----------------------------------
-_site/                  # Generated site output
-.jekyll-cache/          # Jekyll’s cache
-.sass-cache/            # Sass/SCSS cache
+_site/
+.jekyll-cache/
+.sass-cache/
 
 # ----------------------------------
 # Bundler & Ruby dependencies
 # ----------------------------------
-.bundle/                # Bundler config & gems
-vendor/bundle/          # Vendored gems
+.bundle/
+vendor/bundle/
 
 # ----------------------------------
 # Node.js / Asset pipeline
 # ----------------------------------
-node_modules/           # npm/yarn modules
-yarn-error.log          # Yarn error log
+node_modules/
+yarn-error.log
 
 # ----------------------------------
-# IDE / Editor settings
+# Logs & environment
 # ----------------------------------
-.vscode/                # VS Code settings
-.idea/                  # JetBrains IDEs
+*.log
+.env
 
 # ----------------------------------
-# System files
+# IDE / Editor
 # ----------------------------------
-.DS_Store               # macOS Finder metadata
-Thumbs.db               # Windows image cache
+.vscode/
+.idea/
+*.swp
+*~
 
 # ----------------------------------
-# Logs & env files
+# Optional: local scripts
 # ----------------------------------
-*.log                   # Log files
-.env                    # Environment variables
-
-# ----------------------------------
-# Optional: backups, temp
-# ----------------------------------
-*~                      # Vim backup files
-*.swp                   # Vim swap files
+run_server.sh
 

@@ -54,6 +54,20 @@ I am currently an undergraduate student at Stanford University with a keen inter
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/hunchback.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[The Hunchback of Notre Dame: Stage Production](https://stanforddaily.com/2025/04/30/stanford-light-opera-company-prepares-for-historic-memorial-church-production/)
+
+**Kaiwei Chen**
+
+- Coordinated cross-departmental collaboration—scheduling production meetings, tracking deliverables, and facilitating clear communication between direction, set design, lighting, sound, and stage management teams.  
+- Managed department related production budget—monitoring expenditures in real time, and implementing cost-saving measures.  
+- Led costumes & hair department—overseeing sourcing, fittings, and on-site maintenance for 15+ cast members; supervised period-authentic wig construction and rapid-change styling to ensure seamless scene transitions.  
+
+</div>
+</div>
+
 # 📖 Educations
 - *2023.07 - 2025.04 (now)*, Stanford University, Department of Management Science & Engineering
 - *2020.09 - 2023.07*, Nanjing Foreign Language School
